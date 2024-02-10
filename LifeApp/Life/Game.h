@@ -1,9 +1,9 @@
 #pragma once
 
-#include <LaggyDx/Game.h>
+#include <LaggyDx/App.h>
 
 
-class Game : public Dx::Game
+class Game : public Dx::App
 {
 public:
   Game();

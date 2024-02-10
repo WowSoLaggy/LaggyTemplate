@@ -1,14 +1,14 @@
 #include "stdafx.h"
 #include "Game.h"
 
-#include <LaggyDx/GameSettings.h>
+#include <LaggyDx/AppSettings.h>
 
 
 namespace
 {
-  const Dx::GameSettings& getGameSettings()
+  std::unique_ptr<Dx::AppSettings> getAppSettings()
   {
-    static Dx::GameSettings settings;
+    auto settings = std::make_unique<Dx::AppSettings>();
     return settings;
   }
 
@@ -16,6 +16,6 @@ namespace
 
 
 Game::Game()
-  : Dx::Game(getGameSettings())
+  : Dx::App(getAppSettings())
 {
 }
