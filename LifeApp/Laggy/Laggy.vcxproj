@@ -22,7 +22,6 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{b990194b-05ae-4d67-82df-c93003d83928}</ProjectGuid>
-    <RootNamespace>Life</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -143,8 +142,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="CameraController.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Game_input.cpp" />
+    <ClCompile Include="GuiController.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SimClock.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -153,7 +158,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="DrawLayers.h" />
+    <ClInclude Include="Fwd.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GuiController.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="SimClock.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>

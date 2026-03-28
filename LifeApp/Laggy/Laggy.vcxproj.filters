@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{141de305-9d7d-4acd-b6f8-3069aec6ed2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{d816c51d-22b6-4e91-86f0-6bf60632b584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Render">
+      <UniqueIdentifier>{f10e517d-4547-4c71-b960-ce730cb72f49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SimClock.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiController.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_input.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SimClock.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Fwd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiController.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawLayers.h">
+      <Filter>src\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
